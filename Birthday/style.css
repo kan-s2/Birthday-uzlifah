@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+	transition: all 0.2s ease-in-out;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #6c63ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+}
+
+.card {
+	background: #fdfdfd;
+	border-radius: 4px;
+	max-width: 800px;
+	width: 90%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	padding: 1em;
+}
+
+img.birthday {
+	max-height: 40vh;
+}
+
+.text {
+	padding: 1em;
+	color: #333;
+}
+
+.muted {
+	opacity: 0.8;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+body.play-music {
+	animation: fadeIn 2s ease-in-out;
+}
+
+/* Present Animation Styles */
+#present {
+	width: 100px;
+	height: 100px;
+	background: pink;
+	margin: 20px auto;
+	position: relative;
+}
+
+#present #top {
+	width: 100%;
+	height: 20px;
+	background: red;
+	position: absolute;
+	top: 0;
+}
+
+#present #cat {
+	width: 100%;
+	height: 80px;
+	background: orange;
+	position: absolute;
+	top: 20px;
+	transition: top 1s ease-in-out;
+}
+
+#wish div {
+	display: none;
+}

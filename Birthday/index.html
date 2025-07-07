@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Happy Birthday</title>
+		<meta
+			name="description"
+			content="Ucapan ulang tahun spesial dengan tampilan fullscreen minimalis dan musik autoplay."
+		/>
+
+		<!-- Favicon (optional) -->
+		<link rel="icon" href="ulangtahun.jpg" type="image/png" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Animate.css -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<div class="card">
+			<img src="ulangtahun.jpg" alt="birthday" class="birthday" />
+			<div class="text">
+				<h1>aloow AYANG</h1>
+				<p>
+					happy birthday sayanggkuu semoga dengan bertambahnya usiamu,
+					semakin sempurna juga imanmu, rajin ibadahnya, selalu diberi
+					kesehatan sama yang mahakuasa, panjang umur, selalu bahagia,
+					berbakti terus sama orangtua, serta segala doa dan cita cita
+					yang kamu inginkan bisa terwujud dan dimudahkan dalam segala
+					urusan. Aamiin my side.<br /><br />
+					yeyeyy sekarang kamuu ulang tahun sayangg, sekarang kamu
+					semakin dewasa yang dimana kamu pasti tau yang terbaik
+					maupun yang gak buat diri kamuu, harus lebih dewasa dari
+					sebelumnya yaaa, jangan pernah cape buat perbaiki diri jadi
+					lebih baik lagi,<br /><br />
+					semangat terus buat kejar semua keinginan kamu, kamu pasti
+					bisa sayangg, jangan pernah takut gagal yaa, aku selalu
+					dukung kamu dan support kamu sayang, jangan cape yaa
+					sayangg! semangat terus aku selalu ada disamping kamu,
+					selalu rendah hati, jadi anak baik ya sayangg, selalu sayang
+					sama keluarga yaa, jangan lupa untuk selalu bersyukur yaa
+					byy, semoga apapun yang kamu lakukan hari ini dan hari
+					berikutnya selalu diberi kelancaran serta keselamatan,
+					Aamiin.<br /><br />
+				</p>
+				<p class="muted">– SAKTI –</p>
+			</div>
+
+			<!-- Present Animation Element -->
+			<div id="present">
+				<div id="top"></div>
+				<div id="cat"></div>
+			</div>
+
+			<div id="wish">
+				<div>Wish 1: Bahagia selalu</div>
+				<div>Wish 2: Panjang umur</div>
+				<div>Wish 3: Sehat selalu</div>
+			</div>
+		</div>
+
+		<!-- Background music autoplay without controls -->
+		<audio autoplay loop hidden>
+			<source src="hbd.mp3" type="audio/mp3" />
+			Your browser does not support the audio element.
+		</audio>
+
+		<!-- JS -->
+		<script src="script.js"></script>
+	</body>
+</html>
